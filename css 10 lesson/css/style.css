@@ -1,0 +1,164 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+body {
+  background: rgb(178, 240, 219);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.main_container {
+  background-color: beige;
+  margin: 200px;
+  padding: 20px;
+  border: 5px solid rgb(236, 149, 236);
+}
+.image-container{
+	background: url('../img/2560px-Rainbow-diagram-ROYGBIV.svg.png') 0 0/ auto auto no-repeat fixed;
+
+}
+
+.main-content p:nth-child(1):hover {
+  background-color: rgb(243, 200, 119);
+}
+.main-content p:nth-child(2):hover {
+  background-color: rgb(243, 243, 100);
+}
+.main-content p:nth-child(3):hover {
+  background-color: rgb(121, 243, 121);
+}
+
+.main-content p:nth-child(4):hover {
+  background-color: rgb(78, 78, 240);
+}
+
+.link {
+  font-size: 40px;
+  color: rgb(214, 55, 135);
+  font-weight: 700;
+}
+.link:hover {
+  text-decoration: underline;
+  background: rgb(223, 66, 66);
+  color: rgb(245, 239, 239);
+  border-radius: 10px;
+}
+.link:active{
+	color: rgb(178, 240, 219);
+}
+.link:visited{
+	opacity: 0,2;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+form {
+  background: hotpink;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container-question {
+  margin: 20px 400px;
+  padding-left: 60px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+button {
+  display: block;
+  font-size: 30px;
+  margin: 0 500px;
+  background-color: rgb(178, 240, 219);
+  border: 5px dotted rgb(245, 141, 158);
+  font-weight: 700;
+}
+button:focus{
+	box-shadow: 5px 5px 10px rgb(22, 18, 18);
+}
+
+.container-question:focus {
+	box-shadow: 5px 5px 10px rgb(22, 18, 18);
+
+}
